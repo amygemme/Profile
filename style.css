@@ -1,0 +1,9 @@
+body{
+    background-color: rosybrown;
+}
+
+#word_game{
+    background-image: url("https://onedrive.live.com/embed?cid=C5A40686061DBF7F&resid=C5A40686061DBF7F%21244865&authkey=ALlE4RpNK-WIquo");
+    width: 30%;
+    border: red 10px;
+}
