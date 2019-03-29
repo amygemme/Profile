@@ -9,6 +9,19 @@
   }
 }
 
+a{
+  color: white;
+}
+#contact{
+  margin-top: 50%;
+  margin-left: 60%;
+  border: 8px white;
+  color: white;
+}
+
+#homebody{
+  background-color: darkslategrey;
+}
 
 body{
 background-color: lightgray ;
