@@ -12,7 +12,21 @@
 
 body{
 background-color: lightgray ;
-font-family: Arial, Helvetica, sans-serif;
+background-image: url("../../assets/images/sf.jpg");
+background-size: 100%;
+background-position-y: 50%;
+}
+
+#row{
+  width: 20%;
+  margin-left: 60%;
+  background-color: 180,98,20,.5;
+  color: palevioletred;
+  font-size: 26px;
+}
+ 
+#credit{
+  align-self: baseline;
 }
 
 #namebox{
