@@ -1,86 +1,13 @@
 * {
     box-sizing: border-box;
   }
-    /* Styles for screens larger than 980px
-@media screen and (min-width: 980px){  
-      .container {
-      width: 80%;
-      display: flex;
-    }*/
-
-
-     /* Styles for screens larger than 768px 
-@media screen and (min-width: 768px){  
-  .container {
-  width: 80%;
-  display: flex;
-}
-*/
-
- /* Styles for screens larger than 680px 
- @media screen and (min-width: 680px){  
-  .container {
-  width: 80%;
-  display: flex;
-} */
-
 
   body{
-      background-color: darkslategray;
+    background-color: lightsteelblue;
   }
-
-  #header{
-      background-color: purple;
-      text-align: center;
-      margin-top: 0%;
-  }
-
-  #namebox{
-    color: white;
-    background-color:teal;
-    font-size: 24px;
-    text-align: center;
-    height: 50px;
-  }
-  
-  #navbar{
-    height: 50px;
-    color:grey;
-    font-size: 18px;
-    vertical-align: bottom;
-    text-align: right;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .container{
-      background-color: white;
-      border: red 15px;
-      margin-left: 10%;
-      margin-right: 10%;
-      margin-top: 30px;
-      margin-bottom: 50px;
-      padding: 10px;
-      width: 80%;
-  }
-
- #text{
-     font-size: 18px;
-     text-align: justify;
- }
-  #img{
-    width: 160px;
-    height: 160px;
-  }
-
-  #footer{
-      background-color:darkgreen;
-      border-top: yellow 10px;
-      font-size: 10px;
-      height: 50px;
-      color: whitesmoke;
-      display: flex;
-      justify-content: center;
-      margin-bottom: 0%;
-
+   
+  #code{
+    border: 15px red;
+    background-color: darkslategray;
+    color: lightgrey;
   }
