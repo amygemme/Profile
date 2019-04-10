@@ -1,211 +1,111 @@
-* {
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 760px){
-  .container {
-    width: 100%;
-    display: flex;
-  }
-}
-
-a{
-  color: white;
-}
-#contact{
-  margin-top: 50%;
-  margin-left: 60%;
-  border: 8px white;
-  color: white;
-}
-
-#homebody{
-  background-color: darkslategrey;
-}
-
 body{
-background-color: lightgray ;
-background-image: url("../../assets/images/sf.jpg");
-background-size: 100%;
-background-position-y: 50%;
+  /* background-color: rgb(237, 242, 243); */
+  background-color: white;
 }
 
-#row{
-  width: 20%;
-  margin-left: 60%;
-  background-color: 180,98,20,.5;
-  color: palevioletred;
-  font-size: 26px;
-}
- 
-#credit{
-  align-self: baseline;
+
+#jumbo{
+  margin-bottom: 0%;
 }
 
-#namebox{
-  color: white;
-  background-color:teal;
-  font-size: 24px;
-  text-align: center;
-  height: 50px;
+#amy{
+  margin: 0%;
+}
+#bio {
+  width: 50%;
+  background-color: black;
+  height: 600px;
+  padding: 5%;
+  color: lightgrey;
+  font-size: 20px;
+  text-align: justify;
 }
 
-#navbar{
-  height: 50px;
-  color:grey;
-  font-size: 18px;
-  vertical-align: bottom;
-  text-align: right;
+#gradimg {
+  width: 50%;
+  background-image: url("./../images/grad.jpg");
+  height: 600px;
+  background-position: 0;
+  background-size: 100%;
+  background-position-y: -20px;
+  background-repeat: no-repeat;
 }
-
-nav { background-color: white}
-
-
-/*.crumb {
-    display: inline-block;
-}
-
-.crumb a::after {
-    display: inline-block;
-    color: #000;
-    content: '>';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
-}*/
 
 #nav{
-  text-align: right;
-  vertical-align: bottom;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  vertical-align: baseline;
+  padding-left: 20px;
+  background-color: darkblue;
 }
 
-#gap{
-height: 20px;
-}
-
-#about{
-  color:teal;
-  font-size: 20px;
-  height:50px;
-  background-color: white;
-  padding: 15px;
-  border-bottom: 5px red;
-  border: greenyellow 4px;
-}
-
-#content1{
-  padding:15px;
-  height: 200px;
-  background-color: white;
-  text-align: left;
-}
-
-#content2{
-  padding:15px;
-  height: 80px;
-  background-color: white;
-  text-align: left;
-}
-
-#img{
-  width: 90%;
-  height: 90%;
-}
-
-#img2{
-  width:30%;
-  height: 30%;
-  padding: 10px;
-}
-
-#footer{
-  background-color:#666666;
-  border-top: green 5px solid;
-  text-align: center;
-  height: 50px;
-  color:white;
-  font-size: 14px;
-  padding-top:20px;
-
-}
-
-#main{
-  width: 960px;
-  height:320px;
-  background-color:#ffffff;
-  border: #dddddd 3px;
-  padding-left: 10px;
-  margin:auto;
-  border-top-color: #dddddd;
-}
-
-#portfolio{
-  height:2160px;
-  background-color:#ffffff;
-  border: #dddddd 3px;
-  padding: 10px;
-
-}
+/* .icons{
+  height: 600px;
+  background-color: lightcyan;
 
 
-
-#tealheader{
-  color:teal;
-  font-size: 20px;
-  text-align: left;
-  padding-left: 10px;
-  border-bottom: #dddddd 2px;
-  padding-right: 10px;
-
-}
-
-/*#portfolio{
-  padding: 10px;
-  flex: auto;
-  height: 300px;
-}*/
-
-#pics{
-  height: 30%;
-  width: 30%;
-  padding: 10px;
-}
-
-.box {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-/** {
-    box-sizing: border-box;
+  #code{
+    border: 15px red;
+    background-color: darkslategray;
+    color: lightgrey;
   }
 
-  body {
-    font-size: 14px;
+
+  /* CODE FOR FADE TO TEXT */
+  .container {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    margin: 0%
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(237, 242, 243);
+    padding: 20%;
+  }
+  
+  #overlay{
+    background-color: white
+  }
+  /* #code:hover .overlay {
+    opacity: .9;
+  } */
+  /* #contact:hover .overlay {
+    opacity: .9;
+  }
+  #database:hover .overlay {
+    opacity: .9;
+  } */
+  #overlay:hover .overlay {
+    opacity: 1;
+  }
+    /* #tutor:hover .overlay {
+      opacity: .9;
+    } 
+   */
+  .text {
     color: black;
-  }
-
-  .header{
-
-  }
-
-#navbar{
-  text-allign:right;
-}
-  #namebox {
-    color:whitesmoke;
-    padding: 0px;
-    margin: 0;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-    background: darkblue);
-  } **/
-
-  #trivia{
-    /* background-image: url("https://onedrive.live.com/embed?cid=C5A40686061DBF7F&resid=C5A40686061DBF7F%21244865&authkey=ALlE4RpNK-WIquo"); */
-    width: 50%;
-    border: 10px red;
-    background-image: '../../assets/images/Word_Game'
   }
+
+  
+  /*  END CODE FOR FADE TO TEXT  */

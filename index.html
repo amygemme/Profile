@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/cssreset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,13 +16,110 @@
 
 
 <body id="homebody">
-    <div class="jumbotron jumbotron-fluid">
+    <!-- ==========================JUMBO=================================-->
+
+    <div class="jumbotron jumbotron-fluid" id="jumbo">
         <div class="container">
             <h1 class="display-4">Amy Gemme</h1>
             <p class="lead">Mathematican. Problem Solver. Engineer. Educator. .</p>
         </div>
     </div>
+    <!-- ========================BIO AND IMG===================================-->
+    <div id="amy">
+        <div class="row" id="amy">
+            <div id="bio"> Amy is a determined and ambitious individual. Extreamly bright, both a logical and cretive
+                thinker. Amy finished her BA in pure mathematics in 2008. She returned to school to get her MA in
+                Applied Mathematics at California Stat Universit East Bay. Although pure math was beautiful to study,
+                Amy became facinated with applications of mathematics to real world problems using math. Amy has
+                finished all of her course work and passed all comprehensize exams on her first attempt. She is
+                currently learning as many programming languages and is seeking full-time position as a software
+                engineer, web developer or research assistant. Check out some of her projects and resume below. Request
+                her tutoring servies. Shoot her an email or invite her to coffee, there is a good chance she will make
+                you laugh. </div>
+            <div id="gradimg"> </div>
+        </div>
+    </div>
+    <!-- ======================NAV BAR====================================-->
+    <nav>
+        <div class="nav-wrapper" id="nav">
+            <a href="#!" class="brand-logo">Problem Solver</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="https://www.rockstartutoring.com/">Tutoring Services</a></li>
+                <li><a href="./assets/dev.html">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a
+                        href="https://onedrive.live.com/embed?cid=C5A40686061DBF7F&resid=C5A40686061DBF7F%21244738&authkey=APjY5vL63mD61TY&em=2">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+  
+    <!-- ======================DISPLAY AREA=====================================-->
     <div class="row">
+        <div class="container">
+            <div class="col s12 m4" id="overlay">
+                <img src="./assets/images/icons/math3.jpeg" alt="Code" class="image">
+                <div class="overlay">
+                    <div class="text">MATH TUTORING <br> SERVICES</div>
+                </div>
+            </div>
+
+            <div class="col s12 m4" id="overlay">
+                <div class="overlay">
+                    <div class="text"> HIRE ME</div>
+                </div>
+            </div>
+            <div class="col s12 m4" id="overlay">
+                <img src="./assets/images/icons/resume.png" alt="Code" class="image">
+                <div class="overlay">
+                    <div class="text"> RESUME <br> REFERENCES </div>
+
+                </div>
+            </div>
+            <!-- <div class="col s12 m4" id="database">
+                <img src="./assets/images/icons/connect.png" alt="Code" class="image">
+                <div class="overlay">
+                    <div class="text">API <br> NODE <br> JAVASCRIPT</div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="col s12 m4" id="overlay">
+
+                <img src="./assets/images/icons/contact_blue.jpeg" alt="Code" class="image">
+                <div class="overlay">
+                    <div class="text"> CONTACT </div>
+                </div>
+            </div>
+            <div class="col s12 m4" id="overlay">
+                    <div class="overlay">
+                        <div class="text"> HIRE ME</div>
+                    </div>
+                </div>
+    
+            <div class="col s12 m4" id="overlay">
+                <img src="./assets/images/icons/code_img2.png" alt="Code" class="image">
+                <div class="overlay">
+                    <div class="text">CODE</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class=""></div>
+    </div>
+    <!--=====================CODE DISPLAYING MY THREE WORKS IN CARDS =======-->
+    <!-- <div class="row">
         <div class="col s12 m4" id="code">
             <div> This math trivia games uses Javascipt logic to hide and show different parts of the page withough
                 reloading. The code uses a timer, checks the answeres and displays a score when finished. </div>
@@ -32,7 +130,8 @@
                 </div>
                 <div class="card-content">
                     <p> This website is a math trivia game. There is a 20 second timer so you must answer fast. Your
-                        score will display when you are finished. If you do not answer a question it will be counted as
+                        score will display when you are finished. If you do not answer a question it will be counted
+                        as
                         incorrect.</p>
                 </div>
                 <div class="card-action">
@@ -41,15 +140,18 @@
             </div>
         </div>
 
-        <div class="col s12 m4"id="code">
-                <div> This website is my first go at a dynamic webpage usng JQuery. The site connects to the GIPHY database and allows the user to edit the HTML by adding buttons! Each new button generates new GIFs </div>        
+        <div class="col s12 m4" id="code">
+            <div> This website is my first go at a dynamic webpage usng JQuery. The site connects to the GIPHY
+                database
+                and allows the user to edit the HTML by adding buttons! Each new button generates new GIFs </div>
             <div class="card">
                 <div class="card-image">
                     <img src="./assets/images/gif.png">
                     <span class="card-title">GIF Button</span>
                 </div>
                 <div class="card-content">
-                    <p> This website will generate new buttons based on the user input. Each button will connect to the
+                    <p> This website will generate new buttons based on the user input. Each button will connect to
+                        the
                         giphy api and retreive GIFs based on the button topic. It's a button that makes buttons!</p>
                 </div>
                 <div class="card-action">
@@ -58,16 +160,20 @@
             </div>
         </div>
 
-        <div class="col s12 m4"id="code">
-                <div> This is my first back end Engineering project. It is a database for store inventory. MYSQL first sends the department data, product then price. If the user purchases the product, the inventory in the database is changed.</div>
-        
+        <div class="col s12 m4" id="code">
+            <div> This is my first back end Engineering project. It is a database for store inventory. MYSQL first
+                sends
+                the department data, product then price. If the user purchases the product, the inventory in the
+                database is changed.</div>
+
             <div class="card">
                 <div class="card-image">
                     <img src="./assets/images/bamazon.png">
                     <span class="card-title">MySQL Store</span>
                 </div>
                 <div class="card-content">
-                    <p> This code connects Javascript to MYSQL database. The customer is able shop based on data in the
+                    <p> This code connects Javascript to MYSQL database. The customer is able shop based on data in
+                        the
                         database and edit the inventory once a puchase is made. </p>
                 </div>
                 <div class="card-action">
@@ -77,9 +183,9 @@
             </div>
         </div>
 
-    </div>
+    </div> -->
 
-
+    <!--=====================CODE FOR THE CARD AT THE BOTTOM==================-->
 
     <div class="row">
         <div class="col s12 m6">
@@ -99,5 +205,17 @@
     </div>
 
 </body>
+
+<!-- =====================SCRIPT======================================-->
+
+<!--Code to make the navbar work-->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+    });
+</script>
+<!-- ===========================================================-->
+
 
 </html>

@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 760px){
+  .container {
+    width: 100%;
+    display: flex;
+  }
+}
+
+a{
+  color: white;
+}
+#contact{
+  margin-top: 50%;
+  margin-left: 60%;
+  border: 8px white;
+  color: white;
+  font: bold 14px;
+}
+/* 
+#homebody{
+  background-color: darkslategrey;
+} */
+
+body{
+background-color: lightgray ;
+background-image: url("../../assets/images/sf.jpg");
+background-size: 100%;
+background-position-y: 50%;
+}
+
+#row{
+  width: 20%;
+  margin-left: 60%;
+  background-color: 180,98,20,.5;
+  color: palevioletred;
+  font-size: 26px;
+  font: bold;
+}
+/*  
+#pics{
+  height: 30%;
+  width: 30%;
+  padding: 10px;
+} 
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+*/

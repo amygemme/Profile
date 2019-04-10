@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/cssreset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./css/style_dev.css">
+
+    <title>Portfolio</title>
+</head>
+<!-- ==========================JUMBO=================================-->
+
+<body ID="homebody">
+    <div class="jumbotron jumbotron-fluid" id="jumbo">
+        <div class="container">
+            <h1 class="display-4">Amy Gemme</h1>
+            <p class="lead">Mathematican. Problem Solver. Engineer. Educator. .</p>
+        </div>
+    </div>
+    <!-- ========================BIO AND IMG===================================-->
+    <div id="amy">
+        <div class="row" id="amy">
+            <div id="bio"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsa blanditiis eius
+                consequatur quibusdam porro, quaerat, delectus nulla laboriosam vitae, similique natus omnis aperiam
+                illo. Vero dolores officiis ex temporibus.</div>
+            <div id="gradimg"> Grad Img</div>
+        </div>
+    </div>
+    <!-- ======================NAV BAR====================================-->
+    <nav>
+        <div class="nav-wrapper" id="nav">
+            <a href="#!" class="brand-logo">Problem Solver</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Tutoring Services</a></li>
+                <li><a href="badges.html">Portfolio</a></li>
+                <li><a href="collapsible.html">Contact</a></li>
+                <li><a href="mobile.html">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+    <!-- =======================DISPLAY SPACE ====================================-->
+    <div class="icons">
+        Icons
+    </div>
+    <!-- ===========================================================-->
+
+</body>
+
+<!-- ===========================================================-->
+
+<!--Code to make the navbar work-->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+    });
+</script>
+<!-- ===========================================================-->
+
+
+</html>
