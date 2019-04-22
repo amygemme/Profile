@@ -4,32 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/css/cssreset.css">
+    <link rel="stylesheet" href="./cssreset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
     <link rel="stylesheet" type="text/css" href="./css/style_dev.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 
     <title>Portfolio</title>
 </head>
 <!-- ==========================JUMBO=================================-->
 
-<body ID="homebody">
+<body id="homebody">
     <div class="jumbotron jumbotron-fluid" id="jumbo">
         <div class="container">
             <h1 class="display-4">Amy Gemme</h1>
-            <p class="lead">Mathematican. Problem Solver. Engineer. Educator. .</p>
+            <p class="lead">Mathematican. Data Scientist. Software Engineer. Educator.</p>
         </div>
     </div>
     <!-- ========================BIO AND IMG===================================-->
     <div id="amy">
         <div class="row" id="amy">
-            <div id="bio"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsa blanditiis eius
-                consequatur quibusdam porro, quaerat, delectus nulla laboriosam vitae, similique natus omnis aperiam
-                illo. Vero dolores officiis ex temporibus.</div>
-            <div id="gradimg"> Grad Img</div>
+            <div id="bio"> Amy is a determined and ambitious individual. Extreamly bright, both a logical and cretive
+                thinker. Amy finished her BA in pure mathematics in 2008. She returned to school to get her MA in
+                Applied Mathematics at California Stat Universit East Bay. Although pure math was beautiful to study,
+                Amy became facinated with applications of mathematics to real world problems using math. Amy has
+                finished all of her course work and passed all comprehensize exams on her first attempt. She is
+                currently learning as many programming languages and is seeking full-time position as a software
+                engineer, web developer or research assistant. Check out some of her projects and resume below. Request
+                her tutoring servies. Shoot her an email or invite her to coffee, there is a good chance she will make
+                you laugh.</div>
+            <div id="gradimg"> </div>
         </div>
     </div>
     <!-- ======================NAV BAR====================================-->
@@ -38,10 +45,12 @@
             <a href="#!" class="brand-logo">Problem Solver</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Tutoring Services</a></li>
-                <li><a href="badges.html">Portfolio</a></li>
-                <li><a href="collapsible.html">Contact</a></li>
-                <li><a href="mobile.html">Resume</a></li>
+                <li><a href="https://www.rockstartutoring.com/">Tutoring Services</a></li>
+                <li><a href="./assets/dev.html">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a
+                        href="https://onedrive.live.com/embed?cid=C5A40686061DBF7F&resid=C5A40686061DBF7F%21244738&authkey=APjY5vL63mD61TY&em=2">Resume</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -54,9 +63,43 @@
     </ul>
     <!-- =======================DISPLAY SPACE ====================================-->
     <div class="icons">
-        Icons
-    </div>
-    <!-- ===========================================================-->
+        <div id="project">
+            <h4> Online Store Inventory Tracker </h4>
+            <p> The database stores data for items to be sold in an online store. The data includes price, department
+                and quantity in stock. The code will first retrieve a list of departments for the user to shop in,
+                followed by a list of items in the selected department, followed by the price of the selected item. The
+                user can then choose to purchase or not. If the user choses to purchase, the database will update the
+                inventory appropriately. </p>
+            <p> Check out the Code and README on Github <a href="https://github.com/amygemme81/bamazon"> Click Here. </a></p>
+                <img id ="code_right" src="images/icons/nodeJS_2.png">
+                <img id ="code_left" src="images/icons/MYSQL-02.png">
+        </div>
+
+        <div id="project">
+                <h4> Coding challege Feb 2019: Mbox Reverse Email </h4>
+                <p> I entered a coding challege which provided an example of a mbox file with email data. My task was to reverse the email message without changing the header or footer.  This project required a bit of research on my end regarding email data structure. This project took a lot of work but in the end I was able to get my code to create a new mbox file with the email messages reversed exactly like the example file given at the start of the competition.  </p>
+                <p> Check out the Code and README on Github <a href="https://github.com/amygemme81/mbox-challenge"> Click Here. </a></p>
+                    <img id ="code_right" src="images/icons/JS_01.png">
+                    <img id ="code_left" src="images/icons/mbox-01.png">
+            </div>
+            <div id="project">
+                    <h4> Data Scraper </h4>
+                    <p> This site will start with a blank homepage.  When the route "/scrape" is hit, the back-end will grab the headline and link to each article on npr.com and store it in MYSQL database.  When the user returns to the homepage the links and headlines will be displayed on the homepage.   </p>
+                    <p> Check out the Code and README on Github <a href="https://github.com/amygemme81/Scrape-News"> Click Here. </a></p>
+                    <img id ="code_right" src="images/icons/nodeJS_2.png">
+                    <img id ="code_left" src="images/icons/MYSQL-02.png">
+                    </div>
+
+            <div id="project">
+                    <h4> Math Trivia Game </h4>
+                    <p> This was a front-end exercise. I used Javascript logic to hide and show divs as the user plays the game as well as keeping score. The 20 sec timer uses a recersive function with SetTimeOut. If you know your math history, give it a try!  </p>
+                    <p> Check out the Code and README on Github <a href="https://github.com/amygemme81/Math-Trivia"> Click Here. </a></p>
+                    <p> Play the game here! <a href="https://amygemme81.github.io/Math-Trivia/"> Click Here. </a></p>
+
+                        <img id ="code_right" src="images/icons/front-end_01.png">
+                </div>
+    
+        <!-- ===========================================================-->
 
 </body>
 

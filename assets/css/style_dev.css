@@ -1,6 +1,12 @@
 body{
-    background-color: teal;
+    background-color: black;
 }
+/* h4{
+    margin-top: 0%;
+    /* margin-bottom: 0%; */  /*
+    margin-bottom: 0%;
+
+} */
 
 
 #jumbo{
@@ -12,13 +18,14 @@ body{
 }
 #bio {
     width: 50%;
-    background-color: lightcyan;
+    background-color: black;
     height: 600px;
     padding: 5%;
-    color: grey;
-    font-size: 24px;
-}
-
+    color: lightgrey;
+    font-size: 20px;
+    text-align: justify;
+  }
+  
 #gradimg {
     width: 50%;
     background-image: url("./../images/grad.jpg");
@@ -26,43 +33,58 @@ body{
     background-position: 0;
     background-size: 100%;
     background-position-y: -20px;
-    /* background: no-repeat; */
+    background-repeat: no-repeat;
 }
 
 
 #nav{
-    padding-left: 10px;
+    padding-left: 20px;
+    background-color: grey;    
+    color: black;
 }
 
+
+/* 
 .icons{
     height: 1200px;
-    background-color: lightcyan;
+    background-color: black;
     width: 80% auto;
 }
 #icon1{
     width: 50%;
-    /* background-image: url("./../images/icons/code_img2.png"); */
+    /* background-image: url("./../images/icons/code_img2.png"); */ /*
     height: 600px;
-}
-#icon2{
-    width: 50%;
-    /* background-image: url("./../images/icons/code_img2.png"); */
-    height: 600px;
-}
-#icon3{
-    width: 33%;
-    /* background-image: url("./../images/icons/code_img2.png"); */
-    height: 600px;
+} */
+
+#project {
+    width: 99%;
+    background-color: white;
+    color:black;
+    margin: auto;
+    text-align: justify;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 0.5%;
+    border: 20px darkblue;
 }
 
-#icon4{
-    width: 33%;
-    /* background-image: url("./../images/icons/code_img2.png"); */
-    height: 600px;
-}
-#icon5{
-    width: 33%;
-    /* background-image: url("./../images/icons/code_img2.png"); */
-    height: 600px;
+#code_right {
+    width: 20%;
+    margin: auto;
+    align-content: center; */
+    /* padding-right: 20%; */
 }
 
+#code_left {
+    width: 20%;
+    margin: auto;
+    /* align-content: center; */
+    /* padding-left: 20%; */
+}
+
+#code_cener {
+    width: 40%;
+    margin: auto;
+    /* padding: 5%; */
+}
