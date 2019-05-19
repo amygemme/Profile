@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cssreset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style_dev.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <title>Portfolio</title>
+</head>
+<!-- ==========================JUMBO=================================-->
+
+<body id="homebody">
+    <div class="jumbotron jumbotron-fluid" id="jumbo">
+        <div class="container">
+            <h1 class="display-4">Amy Gemme</h1>
+            <p class="lead">Mathematican. Data Scientist. Software Engineer. Educator.</p>
+        </div>
+    </div>
+    <!-- ========================BIO AND IMG===================================-->
+    <div id="amy">
+        <div class="row" id="amy">
+            <div id="bio"> Mathematician. BA in pure mathematics and MA in applied mathematics. Passed all 4 capstone
+                    exams (Linear
+                    Programming, Probability, Numerical Analysis, and Real Analysis) on the first attempt with at least one
+                    perfect or near perfect (19/20) score on 1 of the 3 problems and a perfect score on all 3 linear
+                    programming problems. Currently seeking internship or entry level engineering or research position that
+                    offers challenging, interesting and meaninful work. My course work included: optimization topics such as
+                    simplex method and Dijkstra;s algorithm, Error approximations, Tyler’s Theorem, Big Oh, Newton’s method
+                    of approximation, Bayes' Theorem, Cryptography topics such as enciphering and public key cryptosystems
+                    and much more. I am currently learning as many langauges as I can, check out my progress since Feb 2019!
+            </div>
+            <div id="gradimg"> </div>
+        </div>
+    </div>
+    <!-- ======================NAV BAR====================================-->
+    <nav>
+        <div class="nav-wrapper" id="nav">
+            <a href="#!" class="brand-logo">Problem Solver</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home </a></li>
+                <li><a href="https://www.rockstartutoring.com/">Tutoring Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="./assets/ag_math.pdf">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul> -->
+    <!-- =======================DISPLAY SPACE ====================================-->
+    <div class="icons">
+        <div id="project">
+            <h4> Cryptocurrency Dashboard and Wallet </h4>
+            <p> Starting with a vanilla dashboard using the library context wth React which connected to an API to
+                display current prices of any cryptocurrency. We reverse engineered the code, redsigned the theme, added
+                a google oauth and a database using mongo/mongoose. when users created an account we gave them a default
+                balance of money and they were able to buy and sell 5 cryptocurrencies in our store. The database
+                tracked their balance and inventory. We also added a page where users could compare prices on one chart.
+            </p>
+            <p> Check out the Code and README on Github <a href="https://github.com/amygemme81/GoldApp"> Click Here.
+                </a></p>
+            <img id="code_right" src="./assets/images/icons/react2.png">
+            <img id="code_right" src="./assets/images/icons/nodeJS_2.png">
+            <img id="code_left" src="./assets/images/icons/mongo.png">
+            <img id="code_right" src="./assets/images/icons/mongoose.png">
+
+
+        </div>
+        <div id="project">
+            <h4> Coding challege June 2019: Tip Calculator </h4>
+            <p> The challenge was to create a application that would allow a user to calculate the tip for food service.
+                The requirements included being able to split the tip if needed. My website allows the user to use a
+                slider that shows the percent and the amount as it slides. The values are also updated when the user
+                updats the bill amount or the number of people splitting the check. </p>
+            <p> Check out the Code and README on Github <a href="https://github.com/amygemme81/Tip-Calculator"> Click
+                    Here. </a></p>
+            <p> Use the Tip Calculator here! <a href="https://amygemme81.github.io/Tip-Calculator/"> Click Here. </a>
+            </p>
+
+            <img id="code_right" src="./assets/images/icons/front-end_01.png">
+
+
+        </div>
+
+        <div id="project">
+            <h4> Online Store Inventory Tracker </h4>
+            <p> The database stores data for items to be sold in an online store. The data includes price, department
+                and quantity in stock. The code will first retrieve a list of departments for the user to shop in,
+                followed by a list of items in the selected department, followed by the price of the selected item. The
+                user can then choose to purchase or not. If the user choses to purchase, the database will update the
+                inventory appropriately. </p>
+            <p> Check out the Code and README on Github <a href="https://github.com/amygemme81/bamazon"> Click Here.
+                </a></p>
+            <img id="code_right" src="./assets/images/icons/nodeJS_2.png">
+            <img id="code_left" src="./assets/images/icons/MYSQL-02.png">
+        </div>
+
+        <div id="project">
+            <h4> Coding challege Feb 2019: Mbox Reverse Email </h4>
+            <p> I entered a coding challege which provided an example of a mbox file with email data. My task was to
+                reverse the email message without changing the header or footer. This project required a bit of research
+                on my end regarding email data structure. This project took a lot of work but in the end I was able to
+                get my code to create a new mbox file with the email messages reversed exactly like the example file
+                given at the start of the competition. </p>
+            <p> Check out the Code and README on Github <a href="https://github.com/amygemme81/mbox-challenge"> Click
+                    Here. </a></p>
+            <img id="code_right" src="./assets/images/icons/JS_01.png">
+            <img id="code_left" src="./assets/images/icons/mbox-01.png">
+        </div>
+        <div id="project">
+            <h4> Data Scraper </h4>
+            <p> This site will start with a blank homepage. When the route "/scrape" is hit, the back-end will grab the
+                headline and link to each article on npr.com and store it in MYSQL database. When the user returns to
+                the homepage the links and headlines will be displayed on the homepage. </p>
+            <p> Check out the Code and README on Github <a href="https://github.com/amygemme81/Scrape-News"> Click Here.
+                </a></p>
+            <img id="code_right" src="./assets/images/icons/nodeJS_2.png">
+            <img id="code_left" src="./assets/images/icons/MYSQL-02.png">
+        </div>
+
+        <div id="project">
+            <h4> Math Trivia Game </h4>
+            <p> This was a front-end exercise. I used Javascript logic to hide and show divs as the user plays the game
+                as well as keeping score. The 20 sec timer uses a recersive function with SetTimeOut. If you know your
+                math history, give it a try! </p>
+            <p> Check out the Code and README on Github <a href="https://github.com/amygemme81/Math-Trivia"> Click Here.
+                </a></p>
+            <p> Play the game here! <a href="https://amygemme81.github.io/Math-Trivia/"> Click Here. </a></p>
+
+            <img id="code_right" src="./assets/images/icons/front-end_01.png">
+        </div>
+
+        <!-- ===========================================================-->
+
+</body>
+
+<!-- ===========================================================-->
+
+<!--Code to make the navbar work-->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+    });
+</script>
+<!-- ===========================================================-->
+
+
+</html>

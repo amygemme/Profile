@@ -19,10 +19,7 @@ a{
   color: white;
   font: bold 14px;
 }
-/* 
-#homebody{
-  background-color: darkslategrey;
-} */
+
 
 body{
 background-color: lightgray ;
@@ -39,15 +36,53 @@ background-position-y: 50%;
   font-size: 26px;
   font: bold;
 }
-/*  
-#pics{
-  height: 30%;
-  width: 30%;
-  padding: 10px;
-} 
+.image {
+  display: block;
+  width: 50%;
+  height: 50%;
+  opacity: .6;
+  margin-left: 50%;
 
-.box {
-  display: flex;
-  flex-wrap: wrap;
 }
-*/
+
+#link{
+  margin-top: 10%;
+  width: 20%;
+  margin-left: 60%;
+  background-color: rgb(161,172,204);
+  padding: auto;
+  text-align: center;
+  vertical-align: middle;
+  font-style: italic;
+}
+#in{
+  margin-top: 0%;
+  width: 20%;
+  margin-left: 50%;
+}
+
+#email{
+  width: 30%;
+  margin-left: 60%;
+  background-color: rgb(161,172,204);
+  font-size: 26px;
+  font: bold;
+  margin-top: 1%;
+  padding: auto;
+  text-align: center;
+  vertical-align: middle;
+  font-style: italic;
+}
+
+#welcome{
+  color: whitesmoke;
+  width: 30%;
+  font-size: 30px;
+  margin-left: 60%;
+  margin-top: 2%;
+  font-style: italic;
+  background-color: rgb(161,172,204);
+  padding: auto;
+  text-align: center;
+  vertical-align: middle;
+}
