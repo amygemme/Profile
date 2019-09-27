@@ -1,0 +1,19 @@
+body {
+    background-color: grey
+}
+
+#word_press_images {
+    width: 90%;
+    background: black;
+    margin: 5px;
+    padding: 5px;
+    border: whitesmoke 2px;
+    align-content: center;
+}
+
+#wp_images {
+    margin: auto;
+    width: 90%;
+    align-content: center;
+
+}
